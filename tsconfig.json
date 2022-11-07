@@ -13,7 +13,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@lottie/*": ["public/lottie/*"],
+      "@icons/*": ["public/icons/*"],
+      "@locale/*": ["public/locale/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@configs/*": ["src/configs/*"],
+      "@entities/*": ["src/entities/*"],
+      "@utils/*": ["src/utils/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
