@@ -8,7 +8,7 @@ export const Container = styled('div')({
   marginBottom: 16,
   marginLeft: 16,
   marginRight: 16,
-  transition: 'all 0.3s',
+  // transition: 'all 0.3s',
   maxWidth: '100%',
 
   '@media(min-width: 992px)': {
