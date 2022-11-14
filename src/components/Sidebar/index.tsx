@@ -13,7 +13,7 @@ const Sidebar: React.FC<Props> = () => {
       {
         id: '1',
         label: 'Introduction',
-        path: '/intro',
+        path: '/',
         group: {
           id: '1.1',
           label: 'Welcome',
@@ -42,8 +42,48 @@ const Sidebar: React.FC<Props> = () => {
       },
       {
         id: '4',
-        label: 'Test',
-        path: '/test',
+        label: 'Get All Note',
+        path: '/get-all-notes',
+        group: {
+          id: '2.1',
+          label: 'Reference',
+          description: 'Reference',
+        },
+      },
+      {
+        id: '5',
+        label: 'Get Note By Id',
+        path: '/get-note-by-id',
+        group: {
+          id: '2.1',
+          label: 'Reference',
+          description: 'Reference',
+        },
+      },
+      {
+        id: '6',
+        label: 'Create Note',
+        path: '/create-note',
+        group: {
+          id: '2.1',
+          label: 'Reference',
+          description: 'Reference',
+        },
+      },
+      {
+        id: '7',
+        label: 'Update Note',
+        path: '/update-note',
+        group: {
+          id: '2.1',
+          label: 'Reference',
+          description: 'Reference',
+        },
+      },
+      {
+        id: '8',
+        label: 'Delete Note',
+        path: '/delete-note',
         group: {
           id: '2.1',
           label: 'Reference',
